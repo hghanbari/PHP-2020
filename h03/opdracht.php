@@ -19,6 +19,7 @@
 </head>
 <body>
 <?php
+//Opdracht: Zwemclubs
 $clubs = array("De spartelkuikens" => "25", "De waterbuffels" => "32", "Plonsmderin" => "11", "Bommetje" => "23");
 $img = "<img src='img\zwemmen.png'>";
 echo "<table>";
@@ -35,7 +36,17 @@ echo "<table>";
 
 echo "<table>";
 
+ //opdrachte Kapperszaak Sanders
 
+$kappersagenda =array("9.12"=>"Mevr. Pietrsen", "9.30"=>"Mevr. Willems","9.45"=>"","10.00"=>"Paul van den Broek","10.15"=>"Karel de Meeuw","10.30"=>"" );
+
+print("De volgende momenten zijn nog beschikbaar:<ul>");
+  foreach($kappersagenda as $tijd => $afspraak) {
+      if ($afspraak == "") {
+          print("<li>" . $tijd . "</li>");
+      }
+  }
+print ("</ul>");
 ?>
 
 </body>
