@@ -18,6 +18,9 @@
     </style>
 </head>
 <body>
+<a href="h03/opdracht-1.php"> 1</a>
+<a href="h03/opdracht-2.php"> 2</a>
+<a href="h03/opdracht-3.php"> 3</a>
 <?php
 //Opdracht: Zwemclubs
 $clubs = array("De spartelkuikens" => "25", "De waterbuffels" => "32", "Plonsmderin" => "11", "Bommetje" => "23");
