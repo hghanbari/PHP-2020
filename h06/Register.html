@@ -9,23 +9,21 @@
 </head>
 <body>
 <h1>Aanmelden</h1>
-<form action="engine/do_register.php" method="post" id="form" onsubmit="">
-    <div class="inputUser">
-        <label>Naam</label>
-        <input type="text" name="user" class="user" id="user" required >
-    </div>
-
+<form action="engine/do_login.php" method="post" id="form" onsubmit="">
     <div class="inputEmail">
         <label>Email</label>
         <input type="text" name="email" class="email" id="email" onkeydown="ValidateEmail()"   required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
         <span id="text"></span>
     </div>
+    <div class="inputPass">
+        <label>Password</label>
+        <input type="text" name="pass" class="pass" id="pass" required >
+    </div>
+
     <div id="klik">
         <input type="submit" name="do-register" value="Ok">
     </div>
 </form>
-<a href="Login.html">Inloggen</a>
-<a href="Forgotten_name.html">Naam vergeten</a>
 <script src="Longin.js"></script>
 </body>
 </html>

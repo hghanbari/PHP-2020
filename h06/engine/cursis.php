@@ -1,16 +1,21 @@
 <?php
-$user = "schooluser";
-$pass = "school";
+
+$serverName = "localhost:3306";
+$userName = "test";
+$password = "123456";
+$dbName = "school";
+
 
 try {
-    $dbh = new PDO('mysql:host=localhost;dbname=school;usernam=school;password=0010345000', $user, $pass);
-    foreach ($dbh->query('SELECT * from cursist') as $row) {
-        print_r($row);
-    }
-    $dbh = null;
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
+    $con = new PDO("mysql:host=$serverName;dbName=$dbName",$userName,$password);
+$con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+echo "connection Success";
+
 }
+catch (PDOException $e){
+    echo "Error".$e->getMessage();
+
+}
+
 
 ?>
