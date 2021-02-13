@@ -13,11 +13,11 @@ class Programma {
     }
     /**
      * Geeft programma informatie terug
-     * @return arry
+     * @return array
      */
     function getProgramma(){
         return array("naam" => $this ->naam,
-        "omschrijving" => $this -> omschrijving);
+            "omschrijving" => $this -> omschrijving);
     }
     /**
      * Geeft programma een naam
