@@ -20,15 +20,6 @@ class Liedje
     {
         return $this->titel;
     }
-
-    /**
-     * @param mixed $titel
-     */
-    public function setTitel($titel)
-    {
-        $this->titel = $titel;
-    }
-
     /**
      * @return mixed
      */
@@ -36,7 +27,6 @@ class Liedje
     {
         return $this->artiest;
     }
-
     /**
      * @param mixed $artiest
      */
@@ -44,6 +34,4 @@ class Liedje
     {
         $this->artiest = $artiest;
     }
-
-
 }

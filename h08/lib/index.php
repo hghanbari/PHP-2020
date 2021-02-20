@@ -1,6 +1,6 @@
 <?php
-include_once('lib/Programma.php');
-include_once('lib/Liedje.php');
+include_once('Programma.php');
+include_once('Liedje.php');
 
 $ditprogramma =new Programma();
 $ditprogramma -> setNaam("Mijn eerst programma");

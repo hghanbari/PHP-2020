@@ -35,19 +35,7 @@ class Programma {
     function setOmschrijving ($omschrijving){
         $this -> omschrijving =$omschrijving;
     }
-    /**
-     * Retourneert naam van het programma
-     * @param de omschrijving als string
-     */
-    public function getNaam ($omschrijving){
-        return $this -> naam;
-    }
-    /**
-     * Retourneert omschrijving van het programma
-     * @param de omschrijving als string
-     */
-    public function getOmschrijving ($omschrijving){
-        return $this -> omschrijving;
-    }
+
+
 }
 ?>

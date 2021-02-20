@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 4.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+img.aap.logo {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    margin: 0;
+}
+
+p a {
+    text-decoration: none;
+    font-family: Bangers;
+    color: #ff8400;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
