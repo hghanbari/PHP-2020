@@ -14,29 +14,6 @@ class Auto
         $this->prijs = $prijs;
         $this->url = $url;
     }
-
-
-    function geefGas()
-    {
-
-    }
-
-    /**
-     * @return string
-     */
-    public function getMark()
-    {
-        return $this->mark;
-    }
-
-    /**
-     * @param string $mark
-     */
-    public function setMark($mark)
-    {
-        $this->mark = $mark;
-    }
-
     /**
      * @return string
      */
@@ -45,13 +22,6 @@ class Auto
         return $this->type;
     }
 
-    /**
-     * @return string
-     */
-    public function getPrijs()
-    {
-        return $this->prijs;
-    }
 
     /**
      * @return string

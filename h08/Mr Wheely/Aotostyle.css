@@ -1,36 +1,78 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
-.logo{
+
+.logo {
     background-position: center center;
     background-size: cover;
     width: 100%;
     height: 200px;
+    margin: 0;
 }
+
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333;
+    background-color: #eceeee;
 }
-button,select{
+
+.autos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.auto {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 15px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 1px 5px rgba(0, 0, 0, .1);
+}
+
+.auto > img {
+    max-height: 150px;
+    object-fit: cover;
+    margin: 0 0 10px;
+}
+
+.auto > h3 {
+    font-size: 1.5em;
+}
+
+img {
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+button {
     text-transform: none;
     margin: 15px;
-    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
 }
-label{
-    text-transform: none;
-    margin: 15px;
+
+label {
+    text-transform: capitalize;
+    display: block;
+    margin: 0 0 5px;
 }
+
+.form-group {
+    margin: 20px 15px;
+}
+
 .form-control {
     display: block;
-    width: 90%;
+    width: 100%;
     height: 34px;
-    font-size: 14px;
     color: #555;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin: 15px;
+    margin: 0;
 }
