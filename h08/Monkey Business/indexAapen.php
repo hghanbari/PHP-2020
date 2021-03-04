@@ -2,6 +2,7 @@
 
 include_once('Aapen.php');
 include_once('Img.php');
+//$apen_list = ["Baviaan", "Gorilla", ""];
 
 $apen_list[] = "Baviaan";
 $apen_list[] = "Guereza";
